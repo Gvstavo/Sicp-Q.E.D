@@ -15,6 +15,13 @@
 	(product identity 1 inc n)
 )
 
+;(define (john-wallis n)
+
+;	(define )
+
+;)
+
+
 
 ;(display (factorial 3))
 
@@ -37,3 +44,6 @@
 )
 
 ;(display (factorial-iter 3))
+
+
+
