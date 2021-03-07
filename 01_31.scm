@@ -15,16 +15,6 @@
 	(product identity 1 inc n)
 )
 
-;(define (john-wallis n)
-
-;	(define )
-
-;)
-
-
-
-;(display (factorial 3))
-
 ;b iterative product
 
 (define (product-iter term a next b)
@@ -43,7 +33,10 @@
 	(product-iter identity 1 inc n)
 )
 
-;(display (factorial-iter 3))
+
+
+;c
+
 
 
 
