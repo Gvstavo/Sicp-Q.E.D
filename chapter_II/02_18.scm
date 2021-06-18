@@ -29,8 +29,8 @@
 			(cons (my-list-ref l n) (reverse-rec (- n 1)))
 		)
 	)
-	;(reverse-iter (list ) 0)
-	(reverse-rec (- (my-length l) 1))
+	(reverse-iter (list ) 0)
+	;(reverse-rec (- (my-length l) 1))
 )
 
 (display (my-reverse (list 1 4 9 16 25)))
