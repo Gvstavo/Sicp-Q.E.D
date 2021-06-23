@@ -15,6 +15,15 @@
 	(length-iter items 0)
 )
 
+
+;(define (my-reverse l)
+;	(if (null? l)
+;		l
+;		(append (my-reverse (cdr l)) (list (car l)))
+;	)
+;)
+
+
 (define (my-reverse l)
 	(define (reverse-iter lx n)
 		(if (= n (my-length l))
@@ -33,6 +42,8 @@
 	;(reverse-rec (- (my-length l) 1))
 )
 
-(display (my-reverse (list 1 4 9 16 25)))
+(display (my-reverse (list (list 1 2) (list 3 4)  )))
+
+;(display (my-reverse (list 1 4 9 16 25)))
 
 
