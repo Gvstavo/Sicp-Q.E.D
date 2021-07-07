@@ -30,12 +30,17 @@
 
 	(define (branch-weight branch n)
 		(if (pair? (branch-structure branch))
-			(branch-weight (branch-structure branch) n)
+			(total-weight (branch-structure branch))
 			(+ n (branch-structure branch))
 		)
 	)
 
 	(+ (branch-weight (right-branch mobile) 0) (branch-weight (left-branch mobile) 0))
+
+)
+
+(define (balanced mobile)
+
 
 )
 
@@ -51,3 +56,4 @@
 (newline)
 (display (total-weight c))
 (newline)
+
